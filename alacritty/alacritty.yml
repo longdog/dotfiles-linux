@@ -1,0 +1,75 @@
+colors:
+  primary:
+    foreground: '#202E18'
+    background: '#E5EDE6'
+  cursor:
+    cursor: '#202E18'
+    text: '#E5EDE6'
+  normal:
+    black:   '#E5EDE6'
+    red:     '#A8334C'
+    green:   '#567A30'
+    yellow:  '#944927'
+    blue:    '#286486'
+    magenta: '#88507D'
+    cyan:    '#3B8992'
+    white:   '#202E18'
+  bright:
+    black:   '#B3C6B6'
+    red:     '#94253E'
+    green:   '#3F5A22'
+    yellow:  '#803D1C'
+    blue:    '#1D5573'
+    magenta: '#7B3B70'
+    cyan:    '#2B747C'
+    white:   '#415934'
+
+cursor:
+  thickness: 0.26
+window:
+  padding:
+    x: 0
+    y: 0
+  dimensions:
+    columns: 140
+    lines: 40
+  opacity: 1.0
+font:
+  normal:
+    family: Mononoki Nerd Font
+    style: Regular
+  bold:
+    family: Mononoki Nerd Font
+    style: Bold
+  italic:
+    family: Mononoki Nerd Font
+    style: Italic
+  bold_italic:
+    family: Mononoki Nerd Font
+    style: Bold Italic
+
+  size: 15.0
+  offset:
+    x: 0
+    y: 5
+
+
+key_bindings:
+  - { key: F11, action: ToggleFullscreen }
+  - { key: Q, mods: Command, action: None }
+  - { key: W, mods: Command, action: None }
+scrolling:
+  history: 10000
+
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+
+shell:
+  program: /usr/bin/fish
+  args:
+    - -l
+    - -c
+    - zellij attach --index 0 || zellij
+env:
+  TERM: xterm-256color

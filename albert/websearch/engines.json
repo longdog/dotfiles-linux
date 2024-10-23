@@ -1,0 +1,50 @@
+[
+    {
+        "fallback": true,
+        "iconPath": ":github",
+        "id": "396cc9c6",
+        "name": "GitHub",
+        "trigger": "gh",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":google",
+        "id": "cfdeea99",
+        "name": "Google",
+        "trigger": "gg",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":maps",
+        "id": "df5bed4d",
+        "name": "Google Maps",
+        "trigger": "maps",
+        "url": "https://www.google.com/maps/search/%s/"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":default",
+        "id": "b564a520",
+        "name": "Yandex",
+        "trigger": "ya",
+        "url": "https://yandex.ru/search/?text=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":youtube",
+        "id": "96f16dac",
+        "name": "Youtube",
+        "trigger": "yt",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "fallback": true,
+        "iconPath": ":default",
+        "id": "a76c18f2",
+        "name": "perplexity",
+        "trigger": "pp",
+        "url": "https://www.perplexity.ai/search/?q=%s"
+    }
+]

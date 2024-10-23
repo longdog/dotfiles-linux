@@ -1,0 +1,92 @@
+[colors.bright]
+black = "#B3C6B6"
+blue = "#1D5573"
+cyan = "#2B747C"
+green = "#3F5A22"
+magenta = "#7B3B70"
+red = "#94253E"
+white = "#415934"
+yellow = "#803D1C"
+
+[colors.cursor]
+cursor = "#202E18"
+text = "#E5EDE6"
+
+[colors.normal]
+black = "#E5EDE6"
+blue = "#286486"
+cyan = "#3B8992"
+green = "#567A30"
+magenta = "#88507D"
+red = "#A8334C"
+white = "#202E18"
+yellow = "#944927"
+
+[colors.primary]
+background = "#E5EDE6"
+foreground = "#202E18"
+
+[cursor]
+thickness = 0.26
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 15.0
+
+[font.bold]
+family = "Mononoki Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "Mononoki Nerd Font"
+style = "Bold Italic"
+
+[font.italic]
+family = "Mononoki Nerd Font"
+style = "Italic"
+
+[font.normal]
+family = "Mononoki Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 5
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[[keyboard.bindings]]
+action = "None"
+key = "Q"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "None"
+key = "W"
+mods = "Command"
+
+[scrolling]
+history = 10000
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[shell]
+args = ["-l", "-c", "zellij attach --index 0 || zellij"]
+program = "/usr/bin/fish"
+
+[window]
+opacity = 1.0
+
+[window.dimensions]
+columns = 140
+lines = 40
+
+[window.padding]
+x = 0
+y = 0
